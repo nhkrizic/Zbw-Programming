@@ -46,7 +46,9 @@ while (true)
         }
         else
         {
-            break; // Richtige Zahl geraten
+            zahl = geheimzahl;
+            Console.WriteLine($"Richtig! Die Zahl war {geheimzahl}. Du hast {versuche} Versuche benötigt.");
+
         }
     }
     else
